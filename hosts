@@ -1,10 +1,7 @@
 [build]
 #localhost ansible_connection=local
-ec2-34-207-248-209.compute-1.amazonaws.com ansible_user=centos ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+ec2-54-158-102-180.compute-1.amazonaws.com ansible_user=centos ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 
 [prod]
-ec2-54-158-227-156.compute-1.amazonaws.com ansible_user=centos ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+ec2-54-89-237-48.compute-1.amazonaws.com ansible_user=centos ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 
-#[all:children]
-#prod
-#build
